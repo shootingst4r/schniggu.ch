@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+}
+
+body, html{
+    height: 100%;
+}
+.hero-text{
+    text-align: center;
+    color: white;
+    font-size: 300%;
+}
+.hero-image{
+    height: 100%;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./schniggu.jpeg);
+    background-repeat: no-repeat;    
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
